@@ -2,11 +2,16 @@
 This project implements various encryption algorithms in Node.js using TypeScript. The project structure is organized to keep each encryption algorithm in its own file for better modularity and maintainability.
 
 ## Run Script
+first install packages
+``` shell
+npm install
+```
 
-for hardcoded value, run
+then for hardcoded value, run
 ``` shell
 npx ts-node main.ts
 ```
+
 or 
 ``` shell
 npx ts-node main.ts "Your String to Encrypt"
