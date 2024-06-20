@@ -19,26 +19,26 @@ npx ts-node main.ts "Your String to Encrypt"
 
 ## Project structure
 
-encryption-project/
-│
-├── src/
-│   └── encryption/
-│       ├── aes.ts        # AES encryption implementation
-│       ├── rsa.ts        # RSA encryption implementation
-│       ├── chacha20.ts   # ChaCha20 encryption implementation
-│       ├── blowfish.ts   # Blowfish encryption implementation
-│       ├── twofish.ts    # Twofish encryption implementation
-│       ├── camellia.ts   # Camellia encryption implementation
-│       ├── seed.ts       # SEED encryption implementation
-│       ├── serpent.ts    # Serpent encryption implementation
-│       ├── ecc.ts        # ECC (Elliptic Curve Cryptography) encryption implementation
-│       ├── idea.ts       # IDEA encryption implementation
-│       ├── cast128.ts    # CAST-128 encryption implementation
-│       ├── gost.ts       # GOST encryption implementation
-├── main.ts               # Run the program with a hardcoded value or the one given as the first argument
-├── package.json          # Project configuration and dependencies
-├── tsconfig.json         # TypeScript configuration    
-
+encryption-project/  
+│  
+├── src/  
+│   └── encryption/  
+│       ├── aes.ts        # AES encryption implementation  
+│       ├── rsa.ts        # RSA encryption implementation  
+│       ├── chacha20.ts   # ChaCha20 encryption implementation  
+│       ├── blowfish.ts   # Blowfish encryption implementation  
+│       ├── twofish.ts    # Twofish encryption implementation  
+│       ├── camellia.ts   # Camellia encryption implementation  
+│       ├── seed.ts       # SEED encryption implementation  
+│       ├── serpent.ts    # Serpent encryption implementation  
+│       ├── ecc.ts        # ECC (Elliptic Curve Cryptography) encryption implementation  
+│       ├── idea.ts       # IDEA encryption implementation  
+│       ├── cast128.ts    # CAST-128 encryption implementation  
+│       ├── gost.ts       # GOST encryption implementation  
+├── main.ts               # Run the program with a hardcoded value or the one given as the first argument  
+├── package.json          # Project configuration and dependencies  
+├── tsconfig.json         # TypeScript configuration      
+  
 ## Encryption Models
 
 ### AES (Advanced Encryption Standard)
