@@ -34,10 +34,10 @@ encryption-project/
 │       ├── ecc.ts        # ECC (Elliptic Curve Cryptography) encryption implementation  
 │       ├── idea.ts       # IDEA encryption implementation  
 │       ├── cast128.ts    # CAST-128 encryption implementation  
-│       ├── gost.ts       # GOST encryption implementation  
+│       └── gost.ts       # GOST encryption implementation  
 ├── main.ts               # Run the program with a hardcoded value or the one given as the first argument  
 ├── package.json          # Project configuration and dependencies  
-├── tsconfig.json         # TypeScript configuration      
+└── tsconfig.json         # TypeScript configuration      
   
 ## Encryption Models
 
