@@ -1,0 +1,21 @@
+{
+  "name": "encryption",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.6",
+    "crypto": "^1.0.1",
+    "gost-crypto": "^1.1.4",
+    "serpent": "^0.0.1",
+    "ts-node": "^10.9.2",
+    "twofish": "^1.0.1",
+    "typescript": "^5.4.5"
+  }
+}
